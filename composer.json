@@ -1,0 +1,19 @@
+{
+    "name": "onepersongroup/hw5",
+    "description": "Hw5 for CS174",
+    "authors": [
+        {
+            "name": "Andre Mak"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "onepersongroup\\hw5\\": "",
+            "onepersongroup\\hw5\\configs\\": "src/configs/",
+            "onepersongroup\\hw5\\controllers\\": "src/controllers/",
+            "onepersongroup\\hw5\\models\\": "src/models/",
+            "onepersongroup\\hw5\\views\\": "src/views/",
+            "onepersongroup\\hw5\\views\\helpers\\": "src/views/helpers/"
+    	}
+    }
+}
