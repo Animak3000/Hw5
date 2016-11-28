@@ -6,6 +6,9 @@
             "name": "Andre Mak"
         }
     ],
+    "require": {
+        "setasign/fpdf": "1.8.1"
+    },
     "autoload": {
         "psr-4": {
             "onepersongroup\\hw5\\": "",
