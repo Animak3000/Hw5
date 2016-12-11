@@ -8,10 +8,8 @@
         }
     ],
     "require": {
+        "setasign/fpdf": "1.8.1",
         "stripe/stripe-php": "4.*"
-    },
-    "require": {
-        "setasign/fpdf": "1.8.1"
     },
     "autoload": {
         "psr-4": {

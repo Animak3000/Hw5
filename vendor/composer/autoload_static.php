@@ -16,6 +16,10 @@ class ComposerStaticInit4657f87451886b01711d7e865df2c63b
             'onepersongroup\\hw5\\configs\\' => 27,
             'onepersongroup\\hw5\\' => 19,
         ),
+        'S' => 
+        array (
+            'Stripe\\' => 7,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -42,6 +46,10 @@ class ComposerStaticInit4657f87451886b01711d7e865df2c63b
         'onepersongroup\\hw5\\' => 
         array (
             0 => __DIR__ . '/../..' . '/',
+        ),
+        'Stripe\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
         ),
     );
 

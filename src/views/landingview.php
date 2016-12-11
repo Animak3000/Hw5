@@ -10,6 +10,16 @@ class landingview extends View{
     </head>
     <body>
         <h1>Throw-a-Coin-in-the-Fountain</h1>
+        <p>Hello and welcome to the website.</p>
+        <p>Select a language:</p>
+        <form>
+            <select name="language">
+            	<option value="english">English</option>
+            	<option value="spanish">Spanish</option>
+            </select>
+            <input type="submit" name="l" value="Select">
+        </form>
+        <p>Select a Custom Fountain to throw a coin in:</p>
     </body>
 </html>
 <?php
