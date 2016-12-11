@@ -12,4 +12,5 @@ use \onepersongroup\hw5\controllers\landcontroller;
 //Determine which controller to use.
 
 new landcontroller;
+
 ?>

@@ -3,9 +3,13 @@
     "description": "Hw5 for CS174",
     "authors": [
         {
-            "name": "Andre Mak"
+            "name": "Andre Mak",
+            "name": "Michael Eneh"
         }
     ],
+    "require": {
+        "stripe/stripe-php": "4.*"
+    },
     "require": {
         "setasign/fpdf": "1.8.1"
     },
