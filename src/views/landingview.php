@@ -1,7 +1,16 @@
 <?php
 namespace onepersongroup\hw5\views;
+/**
+* Landing page of website.
+*/
 class landingview extends View{
     function render($data){
+    /**
+    * Renders the landing page of the website.
+    *
+    * @param array $data array containing any information required for rendering.
+    * @return null
+    */
 ?>
 <!DOCTYPE html>
 <html lang='en'>
@@ -16,13 +25,13 @@ class landingview extends View{
         function check_value(value){
             switch(value){
                 case 1:
-                    document.getElementById("image").innerHTML = "<img src='http://localhost/Hw5/src/resources/fountain1.jpg'>";
+                    document.getElementById("image").innerHTML = "<img src='src/resources/fountain1.jpg'>";
                     break;
                 case 2:
-                    document.getElementById("image").innerHTML = "<img src='http://localhost/Hw5/src/resources/fountain2.jpg'>"; 
+                    document.getElementById("image").innerHTML = "<img src='src/resources/fountain2.jpg'>"; 
                     break;
                 case 3:
-                    document.getElementById("image").innerHTML = "<img src='http://localhost/Hw5/src/resources/fountain3.jpg'>"; 
+                    document.getElementById("image").innerHTML = "<img src='src/resources/fountain3.jpg'>"; 
                     break;
                 }
             }
