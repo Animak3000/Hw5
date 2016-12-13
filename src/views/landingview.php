@@ -1,7 +1,14 @@
 <?php
 namespace onepersongroup\hw5\views;
+/**
+* Landing page of website.
+*/
 class landingview extends View{
     function render($data){
+    /**
+    * Renders the landing page of the website.
+    * @param data array containing any information required for rendering.
+    */
 ?>
 <!DOCTYPE html>
 <html lang='en'>
@@ -16,13 +23,13 @@ class landingview extends View{
         function check_value(value){
             switch(value){
                 case 1:
-                    document.getElementById("image").innerHTML = "<img src='http://localhost/Hw5/hw5/src/resources/fountain1.jpg'>";
+                    document.getElementById("image").innerHTML = "<img src='src/resources/fountain1.jpg'>";
                     break;
                 case 2:
-                    document.getElementById("image").innerHTML = "<img src='http://localhost/Hw5/hw5/src/resources/fountain2.jpg'>"; 
+                    document.getElementById("image").innerHTML = "<img src='src/resources/fountain2.jpg'>"; 
                     break;
                 case 3:
-                    document.getElementById("image").innerHTML = "<img src='http://localhost/Hw5/hw5/src/resources/fountain3.jpg'>"; 
+                    document.getElementById("image").innerHTML = "<img src='src/resources/fountain3.jpg'>"; 
                     break;
                 }
             }
@@ -47,8 +54,8 @@ class landingview extends View{
             <input type="radio" name="fountain" value="three" onclick='check_value(3)'>three 
             <script
                 src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                data-key="pk_test_gEYsLXBw5oBTQoHWHetdeJah"
-                data-amount="200"
+                data-key="<?php echo publishable_key ?>"
+                data-amount="<?php echo PRICE ?>"
                 data-name="Throw-a-Coin-in-the-Fountain"
                 data-description="Make a Wish"
                 data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
