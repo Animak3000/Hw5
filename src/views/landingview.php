@@ -7,9 +7,7 @@ class landingview extends View{
     function render($data){
     /**
     * Renders the landing page of the website.
-    *
-    * @param array $data array containing any information required for rendering.
-    * @return null
+    * @param data array containing any information required for rendering.
     */
 ?>
 <!DOCTYPE html>

@@ -6,6 +6,7 @@ namespace onepersongroup\hw5\models;
 abstract class Model{
     /**
     * Connects to the Database.
+    * @return sql The connection to the database.
     */
     function connectToDB(){
         $sql = mysqli_connect(SERVERNAME, USERNAME, PASSWORD, DB);
