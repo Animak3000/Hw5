@@ -54,8 +54,8 @@ class landingview extends View{
             <input type="radio" name="fountain" value="three" onclick='check_value(3)'>three 
             <script
                 src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                data-key="pk_test_gEYsLXBw5oBTQoHWHetdeJah"
-                data-amount="200"
+                data-key="<?php echo publishable_key ?>"
+                data-amount="<?php echo PRICE ?>"
                 data-name="Throw-a-Coin-in-the-Fountain"
                 data-description="Make a Wish"
                 data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
