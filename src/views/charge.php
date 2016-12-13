@@ -1,5 +1,5 @@
 <?php
-  require_once('./config.php');
+  require_once('./index.php');
 
   $token  = $_POST['stripeToken'];
 
@@ -10,7 +10,7 @@
 
   $charge = \Stripe\Charge::create(array(
       'customer' => $customer->id,
-      'amount'   => 25,
+      'amount'   => 250,
       'currency' => 'usd'
   ));
 

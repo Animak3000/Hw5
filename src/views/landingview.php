@@ -28,15 +28,16 @@
 		        </form>
 		        <p>Select a Custom Fountain to throw a coin in:</p>
 		       
-		       		<?php require_once('configs/config.php'); ?>
-
-						<form action="charge.php" method="post">
-						    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-						          data-key="<?php echo $stripe['publishable_key']; ?>"
-						          data-description="Access for a year"
-						          data-amount="25"
-						          data-locale="auto">
-						    </script>
+						<form action="charge.php" method="POST">
+							<script
+							  src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+							  data-key="pk_test_gEYsLXBw5oBTQoHWHetdeJah"
+							  data-amount="200"
+							  data-name="Throw-a-Coin-in-the-Fountain"
+							  data-description="Make a Wish"
+							  data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+							  data-locale="auto">
+							</script>
 						</form>
 		    </body>
 		</html>
