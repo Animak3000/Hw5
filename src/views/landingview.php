@@ -48,7 +48,7 @@ class landingview extends View{
         </form>
         <p>Select a Custom Fountain to throw a coin in:</p>
         <div id='image'></div>
-        <form action="charge.php" method="POST">
+        <form action="src/views/charge.php" method="POST">
             <input type="radio" name="fountain" value="one" onclick='check_value(1)'>one 
             <input type="radio" name="fountain" value="two" onclick='check_value(2)'>two 
             <input type="radio" name="fountain" value="three" onclick='check_value(3)'>three 

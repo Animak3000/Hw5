@@ -1,5 +1,5 @@
 <?php
-  require_once('./config.php');
+  require_once('/Applications/XAMPP/xamppfiles/htdocs/hw5/Hw5/src/configs/config.php');
 
   $token  = $_POST['stripeToken'];
 
